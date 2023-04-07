@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course notes
+    </title>
+</head>
+<body>
+    <!--Adding Images-->
+    <img src="https://pbs.twimg.com/profile_images/1642201330734469120/cDZKuWRh_400x400.jpg" alt="Logo that looks like Mcdonalds">
+    <img src="offline image test.jpg" alt="testing image">
+    <img src="test Images/another folder offline image test.jpg" alt="Test2">
+<h1>HTM Text Strcture</h1>
+<h3>Mohammad</h3>
+<p>text1 <em>text2 <strong>text3</strong></em></p>
+<p>wow</p>
+<br>
+<h5>A7a</h5>
+<hr>
+<h3>Txt4</h3>
+<ul>
+        <!--Unordered list-->
+    <li>bullet 1</li>
+    <li>Bullet 2</li>
+</ul>
+<h3>Text4</h3>
+<ol>
+    <!--Ordered List-->
+    <li>List item one</li>
+    <li>List item 2</li>
+</ol>
+<ol type="I">
+<!--Adding touch to bullet points-->
+<li>A</li>
+<li>B</li>
+</ol>
+<a href="https://www.digitallionne.com/">Link name</a>
+<!--Adding links to texts(Hyperlinks)-->
+<p>Visit our <em><strong><a href="https://www.digitallionne.com/">Wesbite</a></strong></em></p>
+<!--Adding hyper links to lists-->
+<h3>Hyper linked list</h3>
+<ol>
+    <li>Ex 1<strong><a href="https://www.digitallionne.com/">link 1</a></strong></li>
+    <li>Ex1 <em><a href="https://www.digitallionne.com/">link2</a></em></li>
+</ol>
+ <!--Linking another page/html code-->
+ <a href="Page2.html">Another page</a>
+
+ <!--TABLES-->
+ <!--Basic tables no header and no border-->
+ <table>
+    <tr>
+        <td>Cloumn 1</td>
+        <td>coulmn 2</td>
+    </tr>
+    <tr>
+        <td>coloum1 row2</td>
+        <td>coloumn 2 row2</td>
+    </tr>
+ </table>
+ <!--BAsic table with head and body no border-->
+ <table>
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+
+        </tr>
+        <tr>
+            <td>C1 R1</td>
+            <td>C2 R2</td>
+        </tr>
+    </tbody>
+ </table>
+  <!--BAsic table with head and body With border-->
+  <table border="1">
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>C1 R1</td>
+            <td>C2 R1</td>
+
+        </tr>
+        <tr>
+            <td>C1 R2</td>
+            <td>C2 R2</td>
+        </tr>
+    </tbody>
+ </table>
+ <br>
+ <hr>
+ <br>
+ <!--Image layout with text using tables-->
+ <table>
+    <tr>
+        <td><img src="https://pbs.twimg.com/profile_images/1642201330734469120/cDZKuWRh_400x400.jpg" alt="Logo that looks like Mcdonalds"</td>
+    <td>
+        <h3>Random headline</h3>
+        <p>Random <em>Image</em> from <strong>Twitter</strong>
+         
+    </p>
+    <p><a href="https://www.digitallionne.com/"><strong> Website</strong></a></p>
+</td>
+    </tr>
+</table>
+ <!--Image layout with text using tables plus Cell Spcaing-->
+ <!--Table attributes can be stacked <table border="" cellspacing=""-->
+ <table cellspacing="20">
+    <tr>
+        <td><img src="https://pbs.twimg.com/profile_images/1642201330734469120/cDZKuWRh_400x400.jpg" alt="Logo that looks like Mcdonalds"</td>
+    <td>
+        <h3>Random headline</h3>
+        <p>Random <em>Image</em> from <strong>Twitter</strong>
+         
+    </p>
+    <p><a href="https://www.digitallionne.com/"><strong> Website</strong></a></p>
+</td>
+    </tr>
+</table>
+<!--Exc from course Video #23 List skills with ratings-->
+<h1>Exc Video #23</h1>
+<h2>#1</h2>
+<h3>Skills</h3>
+<hr>
+<br>
+<table cellspacing="20">
+    <thead>
+        <th>Skill#</th>
+        <th>Rating</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Skill 1</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr> <tr>
+            <td>Skill 2</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr> <tr>
+            <td>Skill 3</td>
+            <td>⭐⭐⭐</td>
+        </tr> <tr>
+            <td>Skill 4</td>
+            <td>⭐⭐</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<h2>#2</h2>
+<h3>Skills</h3>
+<hr>
+<br>
+<table border="1" cellspacing="20">
+    <tr>
+        <td>
+            <table>
+                <thead>
+                    <th>Skill#1</th>
+                    <th>Rating</th>
+                </thead>
+            </table cellspacing="20">
+        </td>
+        <td>
+            <table>
+                <thead>
+                    <th>Skill#1</th>
+                    <th>Rating</th>
+                </thead>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td>Skill1</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Skill2</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>Skill3</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Skill4</td>
+                    <td>⭐⭐</td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<h3><em>Forms</em></h3>
+<!--Forms-->
+<form action="">
+    <label>Name:</label>
+    <input type="text">
+    <!--input function has infinte options-->
+    <br>
+    <label>Password:</label>
+    <input type="password">
+    <input type="color">
+    <br>
+    <label>Text</label>
+    <input type="checkbox">
+    <input type="submit">
+    <br>
+    <label>Date</label>
+    <input type="date">
+    <br>
+    <label>Upload Files</label>
+    <input type="file">
+</form> 
+<br>
+<hr>
+<br>
+<!--Structuring the form 27-->
+<!--Form actions can make effects after submiting form-->
+<!--method=post and enctype=text/plain used for displaying normal text -->
+<form action="mailto:abulaban.mohd@gmail.com" method="post" enctype="text/plain">
+<label>Name:</label>
+    <input type="text">
+    <br>
+    <Label>Email:</Label>
+    <input type="email"> <br>
+    <label>Password:</label>
+    <input type="password">
+    <input type="color">
+    <br>
+    <label>Your Mesaage:</label><br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br><input type="submit">
+ 
+</form> 
+
+</body>
+</html>
